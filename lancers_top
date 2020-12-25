@@ -1,0 +1,49 @@
+<p><span style="font-size:18px"><strong><label class="newTaskFormQuestion">調査の概要</label></strong></span>
+</p>
+
+<p>
+	本調査では楽器のオンラインレッスンに関する体験・印象を調査しています．</p>
+<p>
+	本調査に回答いただけるのは今年(2020年)に入ってから楽器のオンラインレッスンを受講したことがある方のみです．楽器とは，ピアノやギターはもちろん，声楽や指揮，DTMなども含みます．</p>
+<p>
+	&nbsp;</p>
+<p>
+	楽器演奏や対面・オンラインのレッスンについての選択式設問がメインです．一部，自由記述式の設問もございます．<br />
+	所要時間は10分程度です．</p>
+<p>
+	アンケートには下記回答ページのURLからアクセスしてください．</p>
+<p>
+	&nbsp;</p>
+<p>
+	回答ページ：<a href="https://forms.gle/wv3aAFS3qg9jtxSU7">https://forms.gle/wv3aAFS3qg9jtxSU7</a></p>
+<p>
+	<br />
+	<span>回答する際は，必ずこのウィンドウを開いたままにしておいてください．<br />
+	回答終了後、このページに戻って，終了コード入力欄に終了コードを貼り付けてください．</span></p>
+<p class="questionWrap">
+	&nbsp;</p>
+
+<body>
+<script type="text/javascript">
+    function random(len){
+        var l = len;
+        var c = "012345679";
+        var cl = c.length;
+        var r = "";
+        for(var i = 0; i<8; i++){
+            r += c[Math.floor(Math.random() * cl)];
+        }
+        document.getElementById("password").value = r;
+    }
+
+</script>
+
+    <form>
+    <input type="text" id="password" readonly>
+	<input type="button" value="回答者番号を生成" id="button1" onclick="random(8), this.disabled = true;"/>
+    </form>
+    </body>
+<p>
+	<span class="charLimitLabel workConstraintText" id="taskFormTextField2CharaLimitText">終了コード入力欄：</span></p>
+<p>
+	<input lowercharlimit="6" maxlength="10" minlength="9" name="data[Result][results][SurveyCode]" placeholder="" size="50" type="text" uppercharlimit="9" /></p>
