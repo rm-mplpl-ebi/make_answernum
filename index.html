@@ -1,29 +1,141 @@
-<p><span style="font-size:18px"><strong><label class="newTaskFormQuestion">調査の概要</label></strong></span>
-</p>
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Sample</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+        
+<style>
+    body {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background: rgba(232, 247, 250, 0.17);
+    font-family: 'Courier', monospace;
+    color: #000000;
+    line-height: 1.3;
+    user-select: none;
+  }
+    
+  body > div {
+    padding: 20px;
+    background: rgb(255, 255, 255);
+  }
 
-<p>
-	本調査では楽器のオンラインレッスンに関する体験・印象を調査しています．</p>
-<p>
-	本調査に回答いただけるのは今年(2020年)に入ってから楽器のオンラインレッスンを受講したことがある方のみです．楽器とは，ピアノやギターはもちろん，声楽や指揮，DTMなども含みます．</p>
-<p>
-	&nbsp;</p>
-<p>
-	楽器演奏や対面・オンラインのレッスンについての選択式設問がメインです．一部，自由記述式の設問もございます．<br />
-	所要時間は10分程度です．</p>
-<p>
-	アンケートには下記回答ページのURLからアクセスしてください．</p>
-<p>
-	&nbsp;</p>
-<p>
-	回答ページ：<a href="https://forms.gle/wv3aAFS3qg9jtxSU7">https://forms.gle/wv3aAFS3qg9jtxSU7</a></p>
-<p>
-	<br />
-	<span>回答する際は，必ずこのウィンドウを開いたままにしておいてください．<br />
-	回答終了後、このページに戻って，終了コード入力欄に終了コードを貼り付けてください．</span></p>
-<p class="questionWrap">
-	&nbsp;</p>
+  h2, p, ul {
+    padding-bottom: 1em;
+  }
 
+  h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+    padding: 10px;
+  }
+            
+  .btn-cool-blues {
+    font-size: 1em;
+    font-weight: bold; 
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 3px solid #eee;
+}
+
+  .btn-fab {
+    height: 50px;
+    width: 53px;
+    border-radius: 50%;
+}
+ 
+  .select1 {
+    font-size: 1em;
+    WIDTH: 200px;
+    HEIGHT: 40px;
+    margin : 0.5em;
+}
+
+  .text {
+    font-size: 1em;
+    WIDTH: 600px;
+    HEIGHT: 40px;
+    margin : 0.5em;
+}
+
+  video {
+    border-width: 1px;
+}
+    
+  h3 {
+    border-bottom: double 10px #78c1ff;
+    padding: 10px;
+    text-align: center;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+    
+  h5 {
+    font-weight: bold; 
+    padding:10px
+}
+    
+  p2{
+    padding: 0px;
+}
+    
+  form{
+    padding: 10px;
+}
+    
+  .icon{
+    padding: 0px;
+    position: absolute;
+}
+    
+  .icontext{
+    padding-left: 40px;    
+    }
+    
+    </style>
+</head>
+    
+<h3>調査の概要</h3>
 <body>
+    <h5>調査の内容について</h5>   
+    <p>本調査では楽器のオンラインレッスンに関する体験・印象を調査しています．<br>
+       本調査に回答いただけるのは今年(2020年)に入ってから楽器のオンラインレッスンを受講したことがある方のみです．<br>
+       楽器とは，ピアノやギターはもちろん，声楽や指揮，DTMなども含みます．</p>
+<p>&nbsp;</p>
+
+<h5>調査手順について</h5>    
+    <p>アンケートに回答する前に本ページの「回答者番号生成」のボタンをクリックして，あなたの回答者番号を生成してください．<br>
+       生成された回答者番号をコピーして，回答ページのURLにアクセスし，入力欄にあなたの回答者番号をペーストしてください．<br>
+       その後はアンケートの続きを回答していただいて大丈夫です．</p><br/>
+        <div class="col">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-exclamation-octagon" viewBox="0 0 16 16">
+                <path d="M4.54.146A.5.5 0 0 1 4.893 0h6.214a.5.5 0 0 1 .353.146l4.394 4.394a.5.5 0 0 1 .146.353v6.214a.5.5 0 0 1-.146.353l-4.394 4.394a.5.5 0 0 1-.353.146H4.893a.5.5 0 0 1-.353-.146L.146 11.46A.5.5 0 0 1 0 11.107V4.893a.5.5 0 0 1 .146-.353L4.54.146zM5.1 1L1 5.1v5.8L5.1 15h5.8l4.1-4.1V5.1L10.9 1H5.1z"/>
+                <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/></svg>
+            </div>
+                    <div class="icontext">
+                        <p2>回答する際は，必ずこのウィンドウを開いたままにしておいてください<br/>
+	                        回答終了後、このページに戻って，終了コード入力欄に終了コードを貼り付けてください．</p2>
+                    </div>
+        </div> 
+
 <script type="text/javascript">
     function random(len){
         var l = len;
@@ -35,15 +147,13 @@
         }
         document.getElementById("password").value = r;
     }
-
 </script>
-
-    <form>
-    <input type="text" id="password" readonly>
-	<input type="button" value="回答者番号を生成" id="button1" onclick="random(8), this.disabled = true;"/>
+    
+    <form><br>回答者番号：<input type="text" id="password" readonly>
+	    <button type="button" class="col btn btn-cool-blues btn-sm btn-primary" id="button1" onclick="random(8), this.disabled = true;">回答者番号生成</button>
     </form>
+    
+<p>回答ページ：<a href="https://forms.gle/wv3aAFS3qg9jtxSU7">https://forms.gle/wv3aAFS3qg9jtxSU7</a></p>
     </body>
-<p>
-	<span class="charLimitLabel workConstraintText" id="taskFormTextField2CharaLimitText">終了コード入力欄：</span></p>
-<p>
-	<input lowercharlimit="6" maxlength="10" minlength="9" name="data[Result][results][SurveyCode]" placeholder="" size="50" type="text" uppercharlimit="9" /></p>
+
+</html>
